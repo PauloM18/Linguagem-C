@@ -10,7 +10,7 @@ int main(void)
     //aluno1 e uma struct do tipo tAluno
     tAluno aluno1;
 
-    // pont_aluno é um ponterio do tipo tAluno que recebe o endereço de aluno1
+    // pont_aluno ï¿½ um ponterio do tipo tAluno que recebe o endereï¿½o de aluno1
     tAluno *pontAluno = &aluno1;
 
     aluno1.matricula = 555;
@@ -25,7 +25,7 @@ int main(void)
     // exibir dados usando um ponteiro para struct
     printf("matricula: %d nota: %.2f \n",(*pontAluno).matricula, (*pontAluno).nota);
 
-    //pontAluno -> substitui a notação (*pontAluno). de forma mais intuitiva
+    //pontAluno -> substitui a notaï¿½ï¿½o (*pontAluno). de forma mais intuitiva
     //atribuindo um novo valor para a nota usadno pontAluno ->
 
     pontAluno -> nota = 9.0;
