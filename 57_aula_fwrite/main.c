@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 int main (void){
+    setlocale(LC_ALL,"portuguese_brazil");
     char ch[15] = "Teste geral";
     int valor[15] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
     
@@ -19,7 +20,7 @@ int main (void){
     }
     else{
 
-        printf("\n\nErro: O arquivo binario.bin n√£o foi aberto\n");
+        printf("\n\nErro: O arquivo binario.bin n„o foi aberto\n");
         system("pause");
         exit(1);
 
