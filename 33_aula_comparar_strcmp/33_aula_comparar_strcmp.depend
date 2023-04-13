@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1681134091 source:c:\paulo\faculdade estacio\2º perÍodo\programaÇÃo de software basÍco em c\casavella\33_aula_comparar_strcmp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

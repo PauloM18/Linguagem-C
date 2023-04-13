@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680703172 source:c:\paulo\faculdade estacio\2º perÍodo\programaÇÃo de software basÍco em c\casavella\13_aula_decisao_ifelse_aninhado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+

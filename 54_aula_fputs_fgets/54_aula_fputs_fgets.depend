@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1681315728 source:c:\paulo\faculdade estacio\2º perÍodo\programaÇÃo de software basÍco em c\casavella\54_aula_fputs_fgets\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1681136276 source:c:\paulo\faculdade estacio\2º perÍodo\programaÇÃo de software basÍco em c\casavella\36_aula_strlen_tamanho\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
