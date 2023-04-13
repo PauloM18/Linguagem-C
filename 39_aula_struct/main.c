@@ -9,7 +9,8 @@ struct ficha_aluno{
 };
 int main(void)
 {
-    setlocale(LC_ALL, "portuguese");
+    
+    setlocale(LC_ALL, "portuguese_brazil");
     struct ficha_aluno aluno;
     printf("--------------Cadastro do aluno---------------------\n");
     printf("Nome do aluno ......: ");
