@@ -21,9 +21,15 @@ int main(void){
     depois -> hora = 20;
     depois -> minutos = 20;
     depois -> segundos= 20;
-    printf("%d: %d: %d", agora.hora, agora.minutos, agora.segundos);
+    printf("%d: %d: %d\n", agora.hora, agora.minutos, agora.segundos);
+    
+    int somatorio  = 100;
+    struct horario antes;
+    antes.hora = somatorio + depois->segundos;
+    antes.minutos = agora.hora + depois->minutos;
+    antes.segundos = depois->minutos + depois->segundos;
+
+    printf("%d: %d: %d", antes.hora, antes.minutos, antes.segundos);
     getchar();
     return 0;
 }
-
-
