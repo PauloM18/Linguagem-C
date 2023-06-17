@@ -13,7 +13,7 @@ int main(void){
     setlocale(LC_ALL,"portuguese");
     void copiarString(char *copiarDaqui, char *colarAqui);
 
-    char string1[] = "Pão com mortadela";
+    char string1[] = "Pï¿½o com mortadela";
     char string2[20];
 
     copiarString(string1, string2);
